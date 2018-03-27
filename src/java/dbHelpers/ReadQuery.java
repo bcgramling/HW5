@@ -96,6 +96,9 @@ public class ReadQuery {
                     table += "<td>";
                         table += leader.getTierRank();
                     table += "</td>";
+                    table += "<td>";
+                        table += "<a href=delete?leaderID=" + leader.getLeaderID() + "> Delete </a>";
+                    table += "</td>";
                 table += "</tr>";
                 
             }
